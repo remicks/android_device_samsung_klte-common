@@ -99,3 +99,10 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/etc/wifi/bcmdhd_apsta.bin"
 
 # inherit from the proprietary version
 -include vendor/samsung/klte-common/BoardConfigVendor.mk
+
+# Bliss config flags
+TARGET_TC_ROM := 4.8
+TARGET_TC_KERNEL := 4.8
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_STRICT := true
