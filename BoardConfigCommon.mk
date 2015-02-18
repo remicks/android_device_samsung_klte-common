@@ -106,3 +106,4 @@ TARGET_TC_KERNEL := 4.8
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := true
+BLISS_GRAPHITE := true
