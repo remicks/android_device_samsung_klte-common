@@ -34,7 +34,7 @@ TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/klte
 
 # External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
+TARGET_EXTERNAL_APPS := sdcard1
 
 # Audio
 BOARD_HAVE_NEW_QCOM_CSDCLIENT := true
